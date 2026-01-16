@@ -7,7 +7,9 @@ if len(sys.argv) > 3:
     n3 = int(sys.argv[3])
 else:
     script_name = sys.argv[0]
-    n1, n2, n3 = 90, 92, 94
+    n1=90
+    n2=92
+    n3=94
 
 avg = (n1 + n2 + n3) / 3 
 
